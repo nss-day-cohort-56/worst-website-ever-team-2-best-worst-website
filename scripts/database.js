@@ -12,7 +12,7 @@ movies: [    {
         title: "The Sixth Sense" ,
         year:  "1999",
         synopsis: "Cole is frightened by visitations from those with unresolved problems who appear from the shadows",
-        spoiler: "He sees ghost",
+        spoiler: "Bruce Willis is a ghost",
 
     },
     {
