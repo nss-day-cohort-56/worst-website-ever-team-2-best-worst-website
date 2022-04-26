@@ -1,4 +1,5 @@
 import { getMovie } from "./database.js";
+import { Form } from "./form.js";
 import { Header } from "./header.js"
 const gotMovies = getMovie ()
 
@@ -9,7 +10,7 @@ const mainContainer = document.querySelector(".container")
 
 const applicationHTML = `
 <section class="questions">
-whatever we are calling this fun//
+${Form()}
 </section>
 <section class="console">
     whatever we wanna call this one
