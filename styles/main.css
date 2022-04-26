@@ -2,9 +2,6 @@
 @import url(//db.onlinewebfonts.com/c/54b9af0b935475d59a4bc1f6cdad764b?family=Jokerman);
 
 @import "sidebar.css";
-* {
-    border: solid red 1px;
-}
 
 
 .container {
@@ -41,6 +38,10 @@
     bottom: 5em;
     width: 100%;
     
+}
+
+.synopsis-text {
+    color: yellow;
 }
 
 .console {
