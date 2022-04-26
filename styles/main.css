@@ -2,3 +2,46 @@
     border: solid red 1px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("https://www.fg-a.com/animated-bgs/2019-yellow-black-aimated-background.gif"); */
+
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 41%;
+    
+}
+
+.grandma {
+    transform: rotate(180deg);
+}
+
+#onomatopoeia {
+    transform: rotate(270deg);
+}
+
+.header-section {
+    position: fixed;
+    bottom: 7em;
+    width: 100%;
+    background-color: white;
+}
+
+/* 
+Title should stick to the bottom of the page as you scroll DONE
+submit button that is hidden at the top?
+
+**stretch goals**
+place sidebars
+*/

@@ -14,6 +14,7 @@ const applicationHTML = `
 <section class="questions">
 ${Form()}
 </section>
+<button id="reload">RELOAD MOVIE</button>
 <section class="console">
     ${randomMovie()}
 </section>
