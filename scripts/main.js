@@ -1,6 +1,7 @@
 import { getMovie } from "./database.js";
 import { Form } from "./form.js";
-
+import { Header } from "./header.js"
+const gotMovies = getMovie ()
 
 
 
@@ -16,8 +17,9 @@ ${Form()}
 </section>
 <div class="sidebar">sidebar me babey</div>
 <div class="sidebar">sidebar also maybe</div>
+<section class='header-section'>
+    ${Header()}
+</section>
 `
 mainContainer.innerHTML = applicationHTML
-const gotMovies = getMovie ()
-
 
