@@ -2,7 +2,7 @@ import { getMovie } from "./database.js";
 import { Form } from "./form.js";
 import { Header } from "./header.js"
 import { randomMovie } from "./randomMovie.js"
-
+import { rightSide } from "./rightSidebar.js"
 const gotMovies = getMovie ()
 
 
@@ -18,7 +18,7 @@ ${Form()}
 <section class="console">
     ${randomMovie()}
 </section>
-<div class="sidebar">sidebar me babey</div>
+<div class="sidebar__1">${rightSide()}</div>
 <div class="sidebar">sidebar also maybe</div>
 <section class='header-section'>
     ${Header()}
