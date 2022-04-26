@@ -1,6 +1,6 @@
 export const Form = () => {
     const html = `
-    <section>
+    <section class="form">
     <h1>Answer these optional* questions so that we can personalize your movie recommendation</h1>
     <p>*all fields are required</p>
     <form class="form">
@@ -8,7 +8,7 @@ export const Form = () => {
     <input type="text" max="4" required>
     <label for="genre">2. What's your favorite movie genre?</label>
     <input type="text" required>
-    <label for="grandma">2. What's your grandmother's favorite animal?</label>
+    <label for="grandma" class="grandma">2. What's your grandmother's favorite animal?</label>
     <select name="grandma id="grandma" required>
         <option value="" diabled selected hidden></option>
         <option value="giant_panda">Giant Panda</option>
@@ -67,7 +67,8 @@ export const Form = () => {
     <input type="color" name="void" id="void">
     <label for="two">6. What was your answer to number 2?</label>
     <input type="text" required>
-    <input type="button" value="RESET" id="reset">
-</form> `
+    <input type="reset" value="리샛" class="reset">
+</form> 
+</section>`
 return html
 }
