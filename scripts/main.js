@@ -20,7 +20,7 @@ ${Form()}
     ${randomMovie()}
 </section>
 <div class="sidebar__1">${rightSide()}</div>
-<div class="sidebar">sidebar also maybe</div>
+
 <section class='header-section'>
     ${Header()}
 </section>
