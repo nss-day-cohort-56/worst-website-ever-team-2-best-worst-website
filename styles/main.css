@@ -40,6 +40,10 @@
     
 }
 
+.synopsis-text {
+    color: yellow;
+}
+
 .console {
     background-color: yellow;
     color: red;
