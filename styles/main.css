@@ -1,7 +1,11 @@
+@import url("header.css");
+@import url(//db.onlinewebfonts.com/c/54b9af0b935475d59a4bc1f6cdad764b?family=Jokerman);
+
 @import "sidebar.css";
 * {
     border: solid red 1px;
 }
+
 
 .container {
     display: flex;
@@ -36,7 +40,7 @@
     position: fixed;
     bottom: 7em;
     width: 100%;
-    background-color: white;
+    
 }
 
 
