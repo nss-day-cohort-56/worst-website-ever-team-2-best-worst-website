@@ -2,7 +2,7 @@
 
 
 
-const mainContainer = document.querySelector(".mainContent")
+const mainContainer = document.querySelector(".container")
 
 
 const applicationHTML = `
@@ -16,3 +16,5 @@ whatever we are calling this fun//
 <div class="sidebar">sidebar also maybe</div>
 `
 mainContainer.innerHTML = applicationHTML
+import { getMovie } from "./database.js";
+const gotMovies = getMovie ()
