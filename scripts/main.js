@@ -1,3 +1,5 @@
+import { getMovie } from "./database.js";
+import { Form } from "./form.js";
 
 
 
@@ -7,7 +9,7 @@ const mainContainer = document.querySelector(".container")
 
 const applicationHTML = `
 <section class="questions">
-whatever we are calling this fun//
+${Form()}
 </section>
 <section class="console">
     whatever we wanna call this one
@@ -16,5 +18,6 @@ whatever we are calling this fun//
 <div class="sidebar">sidebar also maybe</div>
 `
 mainContainer.innerHTML = applicationHTML
-import { getMovie } from "./database.js";
 const gotMovies = getMovie ()
+
+

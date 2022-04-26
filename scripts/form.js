@@ -69,4 +69,5 @@ export const Form = () => {
     <input type="text" required>
     <input type="button" value="RESET" id="reset">
 </form> `
+return html
 }
