@@ -1,6 +1,8 @@
 import { getMovie } from "./database.js";
 import { Form } from "./form.js";
 import { Header } from "./header.js"
+import { MovieHTML } from "./randomMovie.js"
+
 const gotMovies = getMovie ()
 
 
@@ -13,7 +15,7 @@ const applicationHTML = `
 ${Form()}
 </section>
 <section class="console">
-    whatever we wanna call this one
+    ${MovieHTML()}
 </section>
 <div class="sidebar">sidebar me babey</div>
 <div class="sidebar">sidebar also maybe</div>
@@ -22,4 +24,3 @@ ${Form()}
 </section>
 `
 mainContainer.innerHTML = applicationHTML
-

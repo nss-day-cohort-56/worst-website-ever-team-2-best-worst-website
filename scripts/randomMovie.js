@@ -18,5 +18,18 @@ const randomMovie = () => {
 }
  const movieResult = randomMovie()
 // 
-//  define variable to hold html 
+//  define string variable to hold html 
 // 
+
+export const MovieHTML = () => {
+  const htmlString = `
+  <h3 class="movie-title">${movieResult.title}</h3>
+  <p class="movie-year">${movieResult.year}</p>
+  <h4 class="synopsis-title">Synopsis</h4>
+  <p class="synopsis-text">${movieResult.synopsis}</p>
+  <p class="spoiler-text">${movieResult.spoiler}</p>
+  `
+  return htmlString
+}
+
+
