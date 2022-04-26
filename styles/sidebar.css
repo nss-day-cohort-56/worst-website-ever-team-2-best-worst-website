@@ -1,0 +1,13 @@
+ .nic {
+    width: 100%;
+    height: auto;
+}
+.sidebar__1 {
+    position: fixed;
+    right: 0;
+    top: 0%;
+    width: 15em;
+    height: 300em;
+    margin-top: -2.5em;
+    align-items: center;
+  }
