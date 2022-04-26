@@ -12,10 +12,11 @@ const mainContainer = document.querySelector(".container")
 
 const applicationHTML = `
 <section class="questions">
+<button onclick="window.location.href='#movies'">poopies</button>
 ${Form()}
 </section>
 <button id="reload">RELOAD MOVIE</button>
-<section class="console">
+<section id="movies" class="console">
     ${randomMovie()}
 </section>
 <div class="sidebar__1">${rightSide()}</div>
