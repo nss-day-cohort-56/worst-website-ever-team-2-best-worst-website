@@ -38,6 +38,11 @@
     background-color: white;
 }
 
+#reload {
+    width: 50%;
+    margin-bottom: 25%;
+}
+
 /* 
 Title should stick to the bottom of the page as you scroll DONE
 submit button that is hidden at the top?
