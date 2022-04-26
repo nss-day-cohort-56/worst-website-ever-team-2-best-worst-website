@@ -8,7 +8,7 @@ export const Form = () => {
     <input type="text" max="4" required>
     <label for="genre">2. What's your favorite movie genre?</label>
     <input type="text" required>
-    <label> for="grandma">2. What's your grandmother's favorite animal?</label>
+    <label for="grandma">2. What's your grandmother's favorite animal?</label>
     <select name="grandma id="grandma" required>
         <option value="" diabled selected hidden></option>
         <option value="giant_panda">Giant Panda</option>
