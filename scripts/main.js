@@ -11,7 +11,7 @@ const mainContainer = document.querySelector(".container")
 
 
 const applicationHTML = `
-<button onclick="window.location.href='#movies'">poopies</button>
+<button class="poopies" onclick="window.location.href='#movies'">poopies</button>
 <section class="questions">
 ${Form()}
 </section>
