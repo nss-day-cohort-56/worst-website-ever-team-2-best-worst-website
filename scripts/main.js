@@ -11,8 +11,8 @@ const mainContainer = document.querySelector(".container")
 
 
 const applicationHTML = `
-<section class="questions">
 <button onclick="window.location.href='#movies'">poopies</button>
+<section class="questions">
 ${Form()}
 </section>
 <button id="reload">RELOAD MOVIE</button>
